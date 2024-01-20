@@ -5,16 +5,16 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Seller Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    <form>
-        First Name: <input type="text"><br>
-        Last Name: <input type="text"><br>
-        <input type="radio">Male<br>
-        <input type="radio">Female<br>
-        Email: <input type="text"><br>
+    <form method="get">
+        First Name: <input type="text" id="firstname" name="firstname"><br>
+        Last Name: <input type="text" id="lastname" name="lastname"><br>
+        <input type="radio" id="male" name="gender">Male<br>
+        <input type="radio" id="female" name="gender">Female<br>
+        Email: <input type="text" id="email" name="email"><br>
+        Password: <input type="password" min="5"><br>
         <input type="submit" value="Customer">
         <input type="reset">
     </form>
