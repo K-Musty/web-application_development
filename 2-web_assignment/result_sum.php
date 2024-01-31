@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Name Table</title>
+    <title>Result Sum Table</title>
     <style>
         table {
             border-collapse: collapse;
             width: 50%;
             margin: 20px;
-            background-color: dodgerblue;
+            background-color: teal;
         }
         th, td {
             border: 1px solid #dddddd;
