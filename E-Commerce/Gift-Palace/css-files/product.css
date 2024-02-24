@@ -1,0 +1,28 @@
+body {
+    font-family: "poppins", sans-serif;
+    color: #101010;
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
