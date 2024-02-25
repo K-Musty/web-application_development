@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav {
+    background: #007B7F;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+ }
+ul a {
+    font-size: 1.2em;
+    color: #FFD166;
+}
+ul a:hover {
+    color: darkgray;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: white;
+
+}
+
+
